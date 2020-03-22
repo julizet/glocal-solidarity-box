@@ -6,5 +6,5 @@ Use glocal box to donate for your local company while shopping online?
 
 ### Clone & run repo
 ```
-node 
+commands tbd
 ```
