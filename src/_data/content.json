@@ -1,0 +1,44 @@
+{
+    "meta": {
+      "title": {
+        "en": "Glocal Box",
+        "de": "Glocal Box"
+                },
+        "subline": {
+          "en": "Shop global, support local",
+          "de": "Global shoppen, lokal untersützen"
+        },
+      "footer": {
+        "tagline": {
+          "en": "We need your support to fight against death of diversity in business!",
+          "de": "Wir brauchen Eure Unterstützung im Kampf gegen das Aussterben der Vielfalt an lokalen Geschäften!"
+         }
+      }
+    },
+    "section-intro": {
+      "id": "intro",
+      "title": {
+        "en": "What is Glocal Box?",
+        "de": "Was ist   Glocal Box?"
+      },
+      "text": {
+        "en": "Glocal Box is a virtual donation box to help local companies survive while massive online shopping.",
+        "de": "Glocal Box ist eine virtuelle Spendenbox, die lokale Unternehmen in Zeiten von Ausgangssperre und Schließungen beim Überleben hilft. "
+      }
+    },
+    "section-registration": {
+      "id": "registration",
+      "title": {
+        "en": "How does it work?",
+        "de": "Wie funktioniert`s?"
+      },
+      "text": {
+        "en": "Glocal Box supports local companies via a dontions. Lorem ipsum",
+        "de": "Glocal Box unterstützt lokle Geschäfte via Spenden. Lorem ipsum"
+      },
+      "btn-txt": {
+        "en": "Register Company!",
+        "de": "Unternehmen registrieren!"
+      }
+    }
+}

@@ -1,0 +1,18 @@
+.section {
+    padding: 3rem 5rem;
+}
+
+.construction {
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+}
+
+.header-stroke{
+    height: 0.5em;
+    position: relative;
+    z-index: auto;
+    background: #ff4040;
+}
+
+.body {}

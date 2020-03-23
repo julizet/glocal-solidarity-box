@@ -1,0 +1,32 @@
+{
+  "name": "glocal-box",
+  "version": "1.0.0",
+  "description": "glocal box is a virtual donation box to support local companies while online shopping.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julizet/glocal-box.git"
+  },
+  "keywords": [
+    "glocal",
+    "box",
+    "donation",
+    "support",
+    "local"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julizet/glocal-box/issues"
+  },
+  "homepage": "https://github.com/julizet/glocal-box#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.1"
+  },
+  "dependencies": {
+    "bulma": "^0.8.0"
+  }
+}
