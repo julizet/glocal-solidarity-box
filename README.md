@@ -5,7 +5,7 @@ Use glocal box to donate for your local company while shopping online?
 
 
 ### Getting started
-this site is build with Bulma (CSS Framework) and Jekyll (static HTML generator based on ruby).
+This site is build with **Bulma (CSS Framework)** and **Jekyll (static HTML generator based on ruby)**. To optimize Dev Environment, prettier and ESlint is used. Simply get started: clone + run command:
 ```sh
 npm install
 ```
