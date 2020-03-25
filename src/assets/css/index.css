@@ -121,6 +121,10 @@ a.navbar-item:hover {
   background:#fafafa;
 }
 
+#vision{
+  background:#fafafa;
+}
+
 .footer {
   display: flex;
   align-items: center;

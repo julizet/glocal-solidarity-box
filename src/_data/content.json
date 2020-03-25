@@ -33,7 +33,7 @@
         "de": "Wie funktionierts?"
       },
       "text": {
-        "en": "Glocal Box supports local companies via a dontions. People who own a company can directly register on this platform to receive donations in the future. People who wwant to support thei local hero`s can directly donate on this platform. This website is here to connect local heroes via one platform.",
+        "en": "Glocal Box supports local companies via a dontions. People who own a company can directly register on this platform to receive donations in the future. People who wwant to support their local heroes can directly donate on this platform. This website is here to connect local heroes via one platform.",
         "de": "Glocal Box unterstützt lokle Geschäfte via Spenden. Personen, die ein Unternehmen besitzen, können sich direkt auf dieser Plattform registrieren, um zukünftig Spenden zu erhalten. Personen, die ihre Lokalmatadoren unterstützen möchten, können auf dieser Plattform direkt spenden. Diese Website soll eine Plattform sein, um lokale Helden und Heldinnen zu verknüpfen."
       },
       "btn-txt": {
@@ -70,6 +70,17 @@
       "supporter-btn-txt": {
         "en": "Donate Now!",
         "de": "Jetzt spenden!"
+      }
+    },
+    "section-vision": {
+      "id": "vision",
+      "title": {
+        "en": "Vision",
+        "de": "Vision"
+      },
+      "text": {
+        "en": "Not only local heroes but rather 'massive online shoppers' and large online shopping platforms must make a contribution in times of COVID-19. With the Glocal Box Donation Feature, they can decide how much of their onlien shopping cart value will be donated to a local company. 50% of the donation is paid by the shopper, 50% by the online shop.",
+        "de": "Nicht nur Lokalhelden, vielmehr Online-Shoppers und auch große Onlineplattformen müssen in Zeiten von COVID-19 einen solidarischen Beitrag leisten. Mit dem Glocal Box Spenden-Feature kann man zukünftig entscheiden, wie viel des eigenen Online-Einkaufswagen-Wertes an ein lokales Unternehmen gespendet wird. 50% der Spende werden vom Käufer bezahlt, 50% vom Online-Shop."
       }
     }
 }
