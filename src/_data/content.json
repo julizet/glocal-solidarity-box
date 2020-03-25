@@ -22,8 +22,8 @@
         "de": "Über Glocal Box"
       },
       "text": {
-        "en": "Glocal Box is a virtual donation box to help local companies survive while massive online shopping.",
-        "de": "Glocal Box ist eine virtuelle Spendenbox, die lokale Unternehmen in Zeiten von Ausgangssperre und Schließungen beim Überleben hilft. "
+        "en": "Glocal Box is a virtual donation box to help local companies to survive in times of COVID-19.",
+        "de": "Glocal Box ist eine virtuelle Spendenbox, die lokale Unternehmen in Zeiten von COVID-19 beim Überleben hilft."
       }
     },
     "section-howitworks": {
@@ -33,8 +33,8 @@
         "de": "Wie funktionierts?"
       },
       "text": {
-        "en": "Glocal Box supports local companies via a dontions. Lorem ipsum",
-        "de": "Glocal Box unterstützt lokle Geschäfte via Spenden. Lorem ipsum"
+        "en": "Glocal Box supports local companies via a dontions. People who own a company can directly register on this platform to receive donations in the future. People who wwant to support thei local hero`s can directly donate on this platform. This website is here to connect local heroes via one platform.",
+        "de": "Glocal Box unterstützt lokle Geschäfte via Spenden. Personen, die ein Unternehmen besitzen, können sich direkt auf dieser Plattform registrieren, um zukünftig Spenden zu erhalten. Personen, die ihre Lokalmatadoren unterstützen möchten, können auf dieser Plattform direkt spenden. Diese Website soll eine Plattform sein, um lokale Helden und Heldinnen zu verknüpfen."
       },
       "btn-txt": {
         "en": "Register Company!",
@@ -52,7 +52,7 @@
         "de": "Ich besitze ein lokales Unternehmen"
       },
       "company-txt": {
-        "en": "If you own a local company register now and receive future glocal box donations from your neighbourhood.",
+        "en": "If you own a local company register now and receive future glocal box donations from their local heroes.",
         "de": "Falls du ein lokales Unternehmen besitzt, dann registriere dich jetzt und erhalte in Zukunft Glocal Box Spenden aus deiner Nachbarschaft."
       },
       "company-btn-txt": {
