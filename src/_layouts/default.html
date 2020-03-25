@@ -3,14 +3,14 @@ layout: skeleton
 ---
 
 <section class="hero is-medium" id="hero">
-    <div class="section">
+    <div class="hero-head">
       <nav class="navbar is-fixed-top">
-        <div class="container">
+        <div class="container" id="very-top">
           <div class="navbar-brand">
-            <a href="/" class="navbar-item">
+            <a href="/" class="navbar-logo">
               {% include placeholder_icon_ff4040.html %}
             </a>
-        
+        </div>
             <input
             type='checkbox'
             role='button'
@@ -29,60 +29,35 @@ layout: skeleton
             <span></span>
             <span></span>
           </label>
-        </div>
-    </div>
-    <div class="header-stroke">
-  </div>
           <div id="navbarMenuHeroA" class="navbar-menu">
             <div class="navbar-end">
-              <!-- create the menu items -->
-              {%- for item in site.data.content -%}
-              {% assign key = item[0] %}
-              {% assign id = site.data.content[key].id %}
-              {% assign text = site.data.content[key].title[page.lang] %}
-              {%- unless site.data.content[key].id -%}
-              <!-- if there is no id we dont add it to the menu -->
-              {% continue %}
-              {%- endunless  -%}
-              <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="/{%-if page.lang == 'en'-%}en{%-endif-%}#{{id}}">
-                {{text}}
-              </a>
-              {%- endfor -%}
-              <!--
-                 add the de/en switch
-                 add is-active class based on current page.lang
-               -->
-              <span class="navbar-item">
-                 <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>|<span class="{%- if page.lang == 'de' -%}is-active{%-endif-%}"><a href="/">DE</a>
-                </span>
-              </span>
-            </div>
-        </div>
-      </nav>
-    </div>
-    <!-- Hero content: will be in the middle -->
-  
-    <div class="hero-body"></div>
-      <div class="container">
-            <div class="header-stroke">
-        </div>
-      </div>
-    </div>
-    <!-- Hero footer: will stick at the bottom -->
-    <!-- <div class="hero-foot">
-      <nav class="tabs">
-        <div class="container">
-          <ul>
-            <li class="is-active"><a>Overview</a></li>
-            <li><a>Modifiers</a></li>
-            <li><a>Grid</a></li>
-            <li><a>Elements</a></li>
-            <li><a>Components</a></li>
-            <li><a>Layout</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div> -->
+                {%- comment -%} <!-- create the menu items --> {%- endcomment -%}
+                {%- for item in site.data.content -%}
+                {% assign key = item[0] %}
+                {% assign id = site.data.content[key].id %}
+                {% assign text = site.data.content[key].title[page.lang] %}
+                {%- unless site.data.content[key].id -%}
+                {%- comment -%} <!-- if there is no id we dont add it to the menu --> {%- endcomment -%}
+                {% continue %}
+                {%- endunless  -%}
+                <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="{%-if page.lang == 'en'-%}/en/#{{id}}{%-else-%}/#{{id}}{%-endif-%}">
+                  {{text}}
+                </a>
+                {%- endfor -%}
+                {%- comment -%} <!--
+                   add the de/en switch
+                   add is-active class based on current page.lang
+                 -->{%- endcomment -%}
+                 <span class="navbar-item language-switch">
+                    <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>
+                    <span>&emsp;</span>
+                    <span class="{%- if page.lang == 'de' -%}is-active{%-endif-%}"><a href="/">DE</a></span>
+                 </span>
+               </div>
+             </div>
+           </div>
+         </nav>
+       </div>
 </section>
 <section class="section" id="introduction">
     </div>
@@ -96,18 +71,92 @@ layout: skeleton
     </div>
 </section>
 
-<section class="section" id="registration">
+<section class="section" id="howitworks">
     <div class="container">
         <h1 class="title">
-            {{ site.data.content["section-registration"].title[page.lang] }}
+            {{ site.data.content["section-howitworks"].title[page.lang] }}
         </h1>
         <h2 class="subtitle">
-            {{ site.data.content["section-registration"].text[page.lang] }}
+            {{ site.data.content["section-howitworks"].text[page.lang] }}
         </h2>
         <p></p>
-        <button class="button is-primary">
-            {{ site.data.content["section-registration"].btn-txt[page.lang] }}
-        </button>
+        {%- if page.lang == 'de' -%}
+        <h1>STELLE DIR EIN PLATZHALTER IMAGE VOR</h1>
+          {%- else -%}
+          <h1>IMAGE A PLACEHOLDER IMAGE</h1>
+        {%- endif -%}
+        </h1>
     </div>
 </section>
+
+<section class="section" id="participate">
+  <div class="container">
+      <h1 class="title">
+          {{ site.data.content["section-participate"].title[page.lang] }}
+      </h1>
+      <div class="columns is-centered">
+        <div class="column">
+          <h2 class="subtitle">
+              {{ site.data.content["section-participate"].company-heading[page.lang] }}
+          </h2>
+          <p>
+            {{ site.data.content["section-participate"].company-txt[page.lang] }}
+            <br>
+            <br>
+          </p>
+          <button class="button is-primary">
+            {{ site.data.content["section-participate"].company-btn-txt[page.lang] }}
+          </button>
+        </div>
+        <div class="column">
+          <h2 class="subtitle">
+              {{ site.data.content["section-participate"].supporter-heading[page.lang] }}
+          </h2>
+          <p>
+            {{ site.data.content["section-participate"].company-txt[page.lang] }}
+            <br>
+            <br>
+          </p>
+          <button class="button is-primary">
+            {{ site.data.content["section-participate"].supporter-btn-txt[page.lang] }}
+          </button>
+        </div>
+      </div>
+      <p></p>
+  </div>
+</section>
+
+
+<!-- +++ footer starts here +++ -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <p>
+            {%- if page.lang == 'de' -%}
+            <a href="">Über dieses Projekt</a>
+              {%- else -%}
+              <a href="">About this project</a>
+            {%- endif -%}
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <p>
+            {%- if page.lang == 'de' -%}
+            <a href="https://www.citylab-berlin.org/legalnote/">Impressum</a>
+              {%- else -%}
+              <a href="https://www.citylab-berlin.org/legalnote_en">Legal Note</a>
+            {%- endif -%}
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</footer>
+
 

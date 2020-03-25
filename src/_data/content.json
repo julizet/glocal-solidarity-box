@@ -18,19 +18,19 @@
     "section-intro": {
       "id": "intro",
       "title": {
-        "en": "What is Glocal Box?",
-        "de": "Was ist   Glocal Box?"
+        "en": "About Glocal Box",
+        "de": "Über Glocal Box"
       },
       "text": {
         "en": "Glocal Box is a virtual donation box to help local companies survive while massive online shopping.",
         "de": "Glocal Box ist eine virtuelle Spendenbox, die lokale Unternehmen in Zeiten von Ausgangssperre und Schließungen beim Überleben hilft. "
       }
     },
-    "section-registration": {
-      "id": "registration",
+    "section-howitworks": {
+      "id": "howitworks",
       "title": {
         "en": "How does it work?",
-        "de": "Wie funktioniert`s?"
+        "de": "Wie funktionierts?"
       },
       "text": {
         "en": "Glocal Box supports local companies via a dontions. Lorem ipsum",
@@ -39,6 +39,37 @@
       "btn-txt": {
         "en": "Register Company!",
         "de": "Unternehmen registrieren!"
+      }
+    },
+    "section-participate": {
+      "id": "participate",
+      "title": {
+        "en": "Get Active!",
+        "de": "Mitmachen!"
+      },
+      "company-heading": {
+        "en": "I own a local company",
+        "de": "Ich besitze ein lokales Unternehmen"
+      },
+      "company-txt": {
+        "en": "If you own a local company register now and receive future glocal box donations from your neighbourhood.",
+        "de": "Falls du ein lokales Unternehmen besitzt, dann registriere dich jetzt und erhalte in Zukunft Glocal Box Spenden aus deiner Nachbarschaft."
+      },
+      "company-btn-txt": {
+        "en": "Register Company!",
+        "de": "Unternehmen registrieren!"
+      },
+      "supporter-heading": {
+        "en": "I want to support",
+        "de": "Ich möchte unterstützen"
+      },
+      "supporter-txt": {
+        "en": "If you don't own a local company, donate for your local heroes!",
+        "de": "Falls du kein lokales Unternehmen besitzt, dann spende für ein Unternehmen in deinem Kiez!"
+      },
+      "supporter-btn-txt": {
+        "en": "Donate Now!",
+        "de": "Jetzt spenden!"
       }
     }
 }
