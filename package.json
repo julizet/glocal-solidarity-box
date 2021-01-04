@@ -28,6 +28,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "bulma": "^0.8.0"
+    "bulma": "^0.8.0",
+    "netlify-cms-app": "^2.14.9"
   }
 }
