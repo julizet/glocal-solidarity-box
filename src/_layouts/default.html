@@ -44,10 +44,10 @@ layout: skeleton
                   {{text}}
                 </a>
                 {%- endfor -%}
-                {%- comment -%} <!--
-                   add the de/en switch
-                   add is-active class based on current page.lang
-                 -->{%- endcomment -%}
+                <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="{%-if page.lang == 'en'-%}/en/blog.html{%-else-%}/blog.html{%-endif-%}">
+                  Blog
+                </a>
+                {%- comment -%} <!-- add the de/en switch // add is-active class based on current page.lang -->{%- endcomment -%}
                  <span class="navbar-item language-switch">
                     <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>
                     <span>&emsp;</span>
@@ -63,10 +63,10 @@ layout: skeleton
     </div>
     <div class="container">
         <h1 class="title">
-        {{ site.data.content["section-intro"].title[page.lang] }}
+        {{ site.data.content["section-introduction"].title[page.lang] }}
         </h1>
         <h2 class="subtitle">
-        {{ site.data.content["section-intro"].text[page.lang] }}
+        {{ site.data.content["section-introduction"].text[page.lang] }}
         </h2>
     </div>
 </section>
@@ -123,17 +123,6 @@ layout: skeleton
         </div>
       </div>
       <p></p>
-  </div>
-</section>
-
-<section class="section" id="vision">
-  <div class="container">
-      <h1 class="title">
-          {{ site.data.content["section-vision"].title[page.lang] }}
-      </h1>
-      <h2 class="subtitle">
-          {{ site.data.content["section-vision"].text[page.lang] }}
-      </h2>
   </div>
 </section>
 

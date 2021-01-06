@@ -1,86 +1,75 @@
 {
-    "meta": {
-      "title": {
-        "en": "Glocal Box",
-        "de": "Glocal Box"
-                },
-        "subline": {
-          "en": "Shop global, support local",
-          "de": "Global shoppen, lokal untersützen"
-        },
-      "footer": {
-        "tagline": {
-          "en": "We need your support to fight against death of diversity in business!",
-          "de": "Wir brauchen Eure Unterstützung im Kampf gegen das Aussterben der Vielfalt an lokalen Geschäften!"
-         }
-      }
+  "meta": {
+    "title": {
+      "en": "Glocal Box",
+      "de": "Glocal Box"
     },
-    "section-intro": {
-      "id": "intro",
-      "title": {
-        "en": "About Glocal Box",
-        "de": "Über Glocal Box"
-      },
-      "text": {
-        "en": "Glocal Box is a virtual donation box to help local companies to survive in times of COVID-19.",
-        "de": "Glocal Box ist eine virtuelle Spendenbox, die lokale Unternehmen in Zeiten von COVID-19 beim Überleben hilft."
-      }
+    "subline": {
+      "en": "Shop global, support local",
+      "de": "Global shoppen, lokal untersützen"
     },
-    "section-howitworks": {
-      "id": "howitworks",
-      "title": {
-        "en": "How does it work?",
-        "de": "Wie funktionierts?"
-      },
-      "text": {
-        "en": "Glocal Box supports local companies via a dontions. People who own a company can directly register on this platform to receive donations in the future. People who wwant to support their local heroes can directly donate on this platform. This website is here to connect local heroes via one platform.",
-        "de": "Glocal Box unterstützt lokle Geschäfte via Spenden. Personen, die ein Unternehmen besitzen, können sich direkt auf dieser Plattform registrieren, um zukünftig Spenden zu erhalten. Personen, die ihre Lokalmatadoren unterstützen möchten, können auf dieser Plattform direkt spenden. Diese Website soll eine Plattform sein, um lokale Helden und Heldinnen zu verknüpfen."
-      },
-      "btn-txt": {
-        "en": "Register Company!",
-        "de": "Unternehmen registrieren!"
-      }
-    },
-    "section-participate": {
-      "id": "participate",
-      "title": {
-        "en": "Get Active!",
-        "de": "Mitmachen!"
-      },
-      "company-heading": {
-        "en": "I own a local company",
-        "de": "Ich besitze ein lokales Unternehmen"
-      },
-      "company-txt": {
-        "en": "If you own a local company register now and receive future glocal box donations from their local heroes.",
-        "de": "Falls du ein lokales Unternehmen besitzt, dann registriere dich jetzt und erhalte in Zukunft Glocal Box Spenden aus deiner Nachbarschaft."
-      },
-      "company-btn-txt": {
-        "en": "Register Company!",
-        "de": "Unternehmen registrieren!"
-      },
-      "supporter-heading": {
-        "en": "I want to support",
-        "de": "Ich möchte unterstützen"
-      },
-      "supporter-txt": {
-        "en": "If you don't own a local company, donate for your local heroes!",
-        "de": "Falls du kein lokales Unternehmen besitzt, dann spende für ein Unternehmen in deinem Kiez!"
-      },
-      "supporter-btn-txt": {
-        "en": "Donate Now!",
-        "de": "Jetzt spenden!"
-      }
-    },
-    "section-vision": {
-      "id": "vision",
-      "title": {
-        "en": "Vision",
-        "de": "Vision"
-      },
-      "text": {
-        "en": "Not only local heroes but rather 'massive online shoppers' and large online shopping platforms must make a contribution in times of COVID-19. With the Glocal Box Donation Feature, they can decide how much of their onlien shopping cart value will be donated to a local company. 50% of the donation is paid by the shopper, 50% by the online shop.",
-        "de": "Nicht nur Lokalhelden, vielmehr Online-Shoppers und auch große Onlineplattformen müssen in Zeiten von COVID-19 einen solidarischen Beitrag leisten. Mit dem Glocal Box Spenden-Feature kann man zukünftig entscheiden, wie viel des eigenen Online-Einkaufswagen-Wertes an ein lokales Unternehmen gespendet wird. 50% der Spende werden vom Käufer bezahlt, 50% vom Online-Shop."
+    "footer": {
+      "tagline": {
+        "en": "We need your support to fight against death of diversity in business!",
+        "de": "Wir brauchen Eure Unterstützung im Kampf gegen das Aussterben der Vielfalt an lokalen Geschäften!"
       }
     }
+  },
+  "section-introduction": {
+    "id": "introduction",
+    "title": {
+      "en": "About Glocal Box",
+      "de": "Über Glocal Box"
+    },
+    "text": {
+      "en": "Glocal Box is a virtual donation box to help local companies to survive in times of COVID-19.<br><br>Not only local heroes but rather 'massive online shoppers' and large online shopping platforms must make a contribution in times of COVID-19. With the Glocal Box Donation Feature, they can decide how much of their onlien shopping cart value will be donated to a local company. 50% of the donation is paid by the shopper, 50% by the online shop.",
+      "de": "Glocal Box ist eine virtuelle Spendenbox, die lokale Unternehmen in Zeiten von COVID-19 beim Überleben hilft.<br><br>Nicht nur Lokalhelden, vielmehr Online-Shoppers und auch große Onlineplattformen müssen in Zeiten von COVID-19 einen solidarischen Beitrag leisten. Mit dem Glocal Box Spenden-Feature kann man zukünftig entscheiden, wie viel des eigenen Online-Einkaufswagen-Wertes an ein lokales Unternehmen gespendet wird. 50% der Spende werden vom Käufer bezahlt, 50% vom Online-Shop."
+    }
+  },
+  "section-howitworks": {
+    "id": "howitworks",
+    "title": {
+      "en": "How does it work?",
+      "de": "Wie funktionierts?"
+    },
+    "text": {
+      "en": "Glocal Box supports local companies via a dontions. People who own a company can directly register on this platform to receive donations in the future. People who wwant to support their local heroes can directly donate on this platform. This website is here to connect local heroes via one platform.",
+      "de": "Glocal Box unterstützt lokle Geschäfte via Spenden. Personen, die ein Unternehmen besitzen, können sich direkt auf dieser Plattform registrieren, um zukünftig Spenden zu erhalten. Personen, die ihre Lokalmatadoren unterstützen möchten, können auf dieser Plattform direkt spenden. Diese Website soll eine Plattform sein, um lokale Helden und Heldinnen zu verknüpfen."
+    },
+    "btn-txt": {
+      "en": "Register Company!",
+      "de": "Unternehmen registrieren!"
+    }
+  },
+  "section-participate": {
+    "id": "participate",
+    "title": {
+      "en": "Get Active!",
+      "de": "Mitmachen!"
+    },
+    "company-heading": {
+      "en": "I own a local company",
+      "de": "Ich besitze ein lokales Unternehmen"
+    },
+    "company-txt": {
+      "en": "If you own a local company register now and receive future glocal box donations from their local heroes.",
+      "de": "Falls du ein lokales Unternehmen besitzt, dann registriere dich jetzt und erhalte in Zukunft Glocal Box Spenden aus deiner Nachbarschaft."
+    },
+    "company-btn-txt": {
+      "en": "Register Company!",
+      "de": "Unternehmen registrieren!"
+    },
+    "supporter-heading": {
+      "en": "I want to support",
+      "de": "Ich möchte unterstützen"
+    },
+    "supporter-txt": {
+      "en": "If you don't own a local company, donate for your local heroes!",
+      "de": "Falls du kein lokales Unternehmen besitzt, dann spende für ein Unternehmen in deinem Kiez!"
+    },
+    "supporter-btn-txt": {
+      "en": "Donate Now!",
+      "de": "Jetzt spenden!"
+    }
+  }
 }

@@ -1,8 +1,14 @@
-source: src
+source: .
+layouts_dir: _layouts
+data_dir: _data
+destination: ./_site
+
 title: glocalbox
 
 exclude:
-- README.md
+  - README.md
 
 host: 0.0.0.0
 
+collections:
+  authors:
