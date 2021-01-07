@@ -1,0 +1,43 @@
+---
+layout: skeleton
+---
+
+<!-- header importet from _includes-->
+{% include header.html %}
+
+<!-- content from here -->
+<section class="section" id="blogger">
+    </div>
+    <div class="container">
+        <h1 class="title">
+        {{ site.data.content["section-blog"].title[page.lang] }}
+        </h1>
+        <p>
+        {{ site.data.content["section-blog"].text[page.lang] }}
+        </p>
+        <br>
+        <div class="blog-article">
+            <ul>
+                {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    {{ post.excerpt }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <br>
+        <button class="button is-primary" onclick="window.location.href='https://glocal-box.netlify.app/admin';">
+            {{ site.data.content["section-blog"].btn-txt[page.lang] }}
+        </button>
+    </div>
+</section>
+
+<!-- header importet from _includes-->
+{% include footer.html %}
+
+
+
+
+
+

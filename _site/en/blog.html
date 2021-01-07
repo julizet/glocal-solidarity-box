@@ -1,4 +1,5 @@
 <html lang="en" class="navbar-fixed-top">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,9 +8,11 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
     <link rel="icon" type="image/svg" sizes="32x32" href="/assets/images/placeholder_icon_ff4040.svg">
-    </head>
-    <body>
-    <section class="hero is-medium" id="hero">
+  </head>
+
+  <body>
+    <!-- header importet from _includes-->
+<section class="hero is-medium" id="hero">
     <div class="hero-head">
       <nav class="navbar is-fixed-top">
         <div class="container" id="very-top"> 
@@ -41,23 +44,21 @@
                 
                 
                 
-              <a class="navbar-item menu__navbar-items" id="navbar-item-1" href="/en/#intro">
-                About Glocal Box
-              </a>
-              
-              <a class="navbar-item menu__navbar-items" id="navbar-item-2" href="/en/#howitworks">
-                How does it work?
-              </a>
-              
-              <a class="navbar-item menu__navbar-items" id="navbar-item-3" href="/en/#participate">
-                Get Active!
-              </a>
-              
-              <a class="navbar-item menu__navbar-items" id="navbar-item-4" href="/en/blog.html">
-                Blog
-              </a>
-              
-              <span class="navbar-item language-switch">
+                <a class="navbar-item menu__navbar-items" id="navbar-item-1" href="/en/#introduction">
+                  About Glocal Box
+                </a>
+                
+                <a class="navbar-item menu__navbar-items" id="navbar-item-2" href="/en/#howitworks">
+                  How does it work?
+                </a>
+                
+                <a class="navbar-item menu__navbar-items" id="navbar-item-3" href="/en/#participate">
+                  Get Active!
+                </a>
+                
+                <a class="navbar-item menu__navbar-items" id="navbar-item-" href="/en/blog.html">
+                  Blog
+                </a><span class="navbar-item language-switch">
                     <span class="is-active"><a href="/en">EN</a></span>
                     <span>&emsp;</span>
                     <span class=""><a href="/">DE</a></span>
@@ -68,68 +69,68 @@
          </nav>
        </div>
 </section>
-<section class="section" id="introduction">
+
+<!-- content from here -->
+<section class="section" id="blogger">
+    </div>
     <div class="container">
         <h1 class="title">
         Blog Articles
         </h1>
-        <h2 class="subtitle">
-        Here you'll find some blog articles.
-        </h2>
+        <p>
+        Here you'll find some blog articel in the future
+        </p>
+        <br>
+        <div class="blog-article">
+            <ul>
+                
+                <li>
+                    <a href="/2020/01/07/tongue-twister.html">Tongue Twister</a>
+                    <h1 id="lets-break-some-tongues">Let’s break some tongues!</h1>
+
+                </li>
+                
+                <li>
+                    <a href="/2020/01/06/funny-fun-facts.html">Funny Fun Facts</a>
+                    <h1 id="please-prepare-for-rofl">Please prepare for #rofl</h1>
+
+                </li>
+                
+            </ul>
+        </div>
+        <br>
+        <button class="button is-primary" onclick="window.location.href='https://glocal-box.netlify.app/admin';">
+            Login for Bloggers!
+        </button>
     </div>
 </section>
 
-<section class="section">
-  <div class="container">
-  <div class="tile is-ancestor">
-      <div class="tile is-vertical is-12">
-      <div class="tile">
-          <div class="tile is-parent is-vertical">
-          <article class="tile is-child notification is-primary">
-              <p class="title">Vertical...</p>
-              <p class="subtitle">Top tile</p>
-          </article>
-          <article class="tile is-child notification is-warning">
-              <p class="title">...tiles</p>
-              <p class="subtitle">Bottom tile</p>
-          </article>
-          </div>
-          <div class="tile is-parent">
-          <article class="tile is-child notification is-info">
-              <p class="title">Middle tile</p>
-              <p class="subtitle">With an image</p>
-              <figure class="image is-4by3">
-              <img src="https://bulma.io/images/placeholders/640x480.png">
-              </figure>
-          </article>
-          </div>
-      </div>
-  </div>
-  </div>
-</section>
-
-<!-- +++ footer starts here +++ -->
-
+<!-- header importet from _includes-->
 <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="content">
-          <p><a href="">Über dieses Projekt</a></p>
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <p><a href="">About this project</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <p><a href="">Legal Note</a></p>
+          </div>
         </div>
       </div>
-      <div class="column">
-        <div class="content">
-          <p><a href="">Impressum</a></p>
-        </div>
-      </div>
-    </div>
     </div>
   </div>
 </footer>
 
 
 
+
+
+
+
     <!-- <script src="/assets/js/index.bundle.js"></script> -->
-    </body>
+  </body>
+  
 </html>

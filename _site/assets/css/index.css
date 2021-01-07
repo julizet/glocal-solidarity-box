@@ -44,14 +44,16 @@
 }
 
 @media screen and (max-width: 1024px) {
-  #introduction {
-    margin-top: 16rem;
+  #introduction,
+  #blogger {
+    margin-top: 12rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  #introduction {
-    margin-top: 10rem;
+  #introduction,
+  #blogger {
+    margin-top: 8rem;
   }
 
   a.navbar-item:hover {
@@ -125,13 +127,22 @@ a.navbar-item:hover {
   background: #f5f5f5;
 }
 
+.blog-article {
+  padding: 1em 0em 1em 0em;
+}
+
+.blog-article li {
+  margin-top: 0.5em;
+  padding: 1em 0em 1em 0em;
+  outline: solid 1px green;
+}
+
 .footer {
   display: flex;
   align-items: center;
   background-color: #ff4040;
   padding: 2rem 5rem;
 }
-
 .footer a {
   color: white;
 }

@@ -13,9 +13,9 @@ layout: skeleton
         <h1 class="title">
         {{ site.data.content["section-introduction"].title[page.lang] }}
         </h1>
-        <h2 class="subtitle">
+        <p>
         {{ site.data.content["section-introduction"].text[page.lang] }}
-        </h2>
+        </p>
     </div>
 </section>
 
@@ -24,10 +24,9 @@ layout: skeleton
         <h1 class="title">
             {{ site.data.content["section-howitworks"].title[page.lang] }}
         </h1>
-        <h2 class="subtitle">
+        <p>
             {{ site.data.content["section-howitworks"].text[page.lang] }}
-        </h2>
-        <p></p>
+        </p>
         {%- if page.lang == 'de' -%}
         <h1>STELLE DIR EIN PLATZHALTER IMAGE VOR</h1>
           {%- else -%}
@@ -62,7 +61,7 @@ layout: skeleton
           </h2>
           <p>
             {{ site.data.content["section-participate"].company-txt[page.lang] }}
-            <br>
+            <br>  
             <br>
           </p>
           <button class="button is-primary">
