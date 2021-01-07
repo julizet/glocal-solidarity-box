@@ -33,7 +33,7 @@
       "de": "Wie funktionierts?"
     },
     "text": {
-      "en": "Glocal Box supports local companies via a dontions. People who own a company can directly register on this platform to receive donations in the future. People who wwant to support their local heroes can directly donate on this platform. This website is here to connect local heroes via one platform.",
+      "en": "Glocal Box supports local companies via a dontions. People who own a company can directly register on this platform to receive donations in the future. People who want to support their local heroes can directly donate on this platform. This website is here to connect local heroes via one platform.",
       "de": "Glocal Box unterstützt lokle Geschäfte via Spenden. Personen, die ein Unternehmen besitzen, können sich direkt auf dieser Plattform registrieren, um zukünftig Spenden zu erhalten. Personen, die ihre Lokalmatadoren unterstützen möchten, können auf dieser Plattform direkt spenden. Diese Website soll eine Plattform sein, um lokale Helden und Heldinnen zu verknüpfen."
     },
     "btn-txt": {
@@ -70,6 +70,20 @@
     "supporter-btn-txt": {
       "en": "Donate Now!",
       "de": "Jetzt spenden!"
+    }
+  },
+  "section-blog": {
+    "title": {
+      "en": "Blog Articles",
+      "de": "Blogartikel"
+    },
+    "text": {
+      "en": "Here you'll find some blog articel in the future",
+      "de": "Hier findest du in Zukunft Blogartikel"
+    },
+    "btn-txt": {
+      "en": "Login for Bloggers!",
+      "de": "Login for Bloggers!"
     }
   }
 }
