@@ -31,3 +31,11 @@ In this case, I created a `blog.html` and severeal authors within the `_authors`
 ### Using Netlify CMS
 
 **Important:** when using `/admin`-login in development, the Netlify CMS will automaticall redirect to the deployed webpage. Means that every blog article, author or media which will be added or removed within *development mode* will also be added/deleted on the deployed version.
+
+Follow these steps to add another blog article:
+1. login to Netlify CMS by using this URL: [https://glocal-box.netlify.app/admin](https://glocal-box.netlify.app/admin)
+2. Create an account with email and password or by using your GitHub account
+3. create new blog article & click the `publish button`
+
+By clicking the publish button a new netlify deploy is triggered. So please be patient and whait until deploy is ready.
+Finish
