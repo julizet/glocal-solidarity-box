@@ -8,11 +8,24 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
     <link rel="icon" type="image/svg" sizes="32x32" href="/assets/images/placeholder_icon_ff4040.svg">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body>
     {{content}}
     <!-- <script src="/assets/js/index.bundle.js"></script> -->
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
   
 </html>
