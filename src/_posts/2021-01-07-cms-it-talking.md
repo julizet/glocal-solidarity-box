@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CMS it talking!
+title: CMS is talking!
 date: 2021-01-07T10:43:59.916Z
 author: Julia Zimmermann
 ---
