@@ -15,7 +15,7 @@ npm install
 bundle exec jekyll serve --livereload
 ```
 
-### Using Netlify CMS
+### Config Netlify CMS
 
 Netlify CMS is compatible with any static site buide like Hugo or Jekyll etc.
 Install it's package by using: `npm install netlify-cms-app --save`
@@ -28,3 +28,6 @@ Afterwards do some configs:
 Within the `config.yml` you can specify which sites of your website should be considered by the CMS `index.html`.
 In this case, I created a `blog.html` and severeal authors within the `_authors` folder to play araound with the CMS.
 
+### Using Netlify CMS
+
+**Important:** when using `/admin`-login in development, the Netlify CMS will automaticall redirect to the deployed webpage. Means that every blog article, author or media which will be added or removed within *development mode* will also be added/deleted on the deployed version.
