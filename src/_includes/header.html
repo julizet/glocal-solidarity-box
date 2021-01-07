@@ -1,0 +1,57 @@
+<section class="hero is-medium" id="hero">
+    <div class="hero-head">
+      <nav class="navbar is-fixed-top">
+        <div class="container" id="very-top"> 
+          <div class="navbar-brand">
+            <a href="/" class="navbar-logo">
+              {% include placeholder_icon_ff4040.html %}
+            </a>
+        </div>
+            <input
+            type='checkbox'
+            role='button'
+            id='navbar-burger-toggle'
+            class='navbar-burger-toggle is-hidden'
+            aria-label='menu'
+            aria-expanded='false'
+            >
+
+            <p class="construction">
+                &#128372 This Website is under construction!
+            </p>
+
+          <label for='navbar-burger-toggle' class='navbar-burger'>
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+                {%- comment -%} <!-- create the menu items --> {%- endcomment -%}
+                {%- for item in site.data.content -%}
+                {% assign key = item[0] %}
+                {% assign id = site.data.content[key].id %}
+                {% assign text = site.data.content[key].title[page.lang] %}
+                {%- unless site.data.content[key].id -%}
+                {%- comment -%} <!-- if there is no id we dont add it to the menu --> {%- endcomment -%}
+                {% continue %}
+                {%- endunless  -%}
+                <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="{%-if page.lang == 'en'-%}/en/#{{id}}{%-else-%}/#{{id}}{%-endif-%}">
+                  {{text}}
+                </a>
+                {%- endfor -%}
+                <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="{%-if page.lang == 'en'-%}/en/blog.html{%-else-%}/blog.html{%-endif-%}">
+                  Blog
+                </a>
+                {%- comment -%} <!-- add the de/en switch // add is-active class based on current page.lang -->{%- endcomment -%}
+                 <span class="navbar-item language-switch">
+                    <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>
+                    <span>&emsp;</span>
+                    <span class="{%- if page.lang == 'de' -%}is-active{%-endif-%}"><a href="/">DE</a></span>
+                 </span>
+               </div>
+             </div>
+           </div>
+         </nav>
+       </div>
+</section>
